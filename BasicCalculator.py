@@ -19,13 +19,17 @@ def evaluate_calculation():
         clear_field()
         text_result.insert(1.0, "Error")
 
-def clear_field():
+def clear_field():    
     global calculation
     calculation = ""
     text_result.delete(1.0, "end")
     
 
 root =tk.Tk()
+# Restricting Window (No Minimization or Maximization)
+root.resizable(0,0)
+root.title("Calculator")
+
 root.geometry("300x275")
 
 text_result =tk.Text(root, height=2, width=16, font=("Arial", 24))

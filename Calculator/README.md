@@ -21,7 +21,7 @@ This repository contains a simple calculator application built with Python's `tk
 ## How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Isaadqurashi/CodeClause.git
+   git clone https://github.com/Isaadqurashi/CodeClause/tree/main/Calculator
    cd isaadqurashi-CodeClause
    ```
 

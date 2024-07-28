@@ -58,6 +58,7 @@ This project is a simple URL Shortener web application built using Python and Fl
 
 4. You will receive a shortened URL which you can use to redirect to the original long URL.
 
+#
 ## EXAMPLE
 
 ## URL Shortener
